@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: rgb(178, 211, 243);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#text,
+#days {
+  padding: 5px 12px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #24292e;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: rgb(255, 255, 255) 0px 1px 0px 0px;
+  color: black;
+  background-color: rgb(178, 211, 243);
+  text-align: center;
+  font-weight: bolder;
+}
+.stock-info,
+.day-change-input,
+.stock-list,
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stock-list > ul {
+  height: 100px;
+  overflow: auto;
+}
+
+#daily_change {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#daily_change li {
+  min-width: 115px;
+  max-width: 115px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  background-color: rgb(178, 211, 243);
+  box-shadow: rgb(116, 153, 189) 2px 2px 2px;
+  border-radius: 30px;
+  padding: 15px;
+  color: black;
+  font-weight: bolder;
+}
+.date {
+  display: flex;
+  gap: 5px;
+}
